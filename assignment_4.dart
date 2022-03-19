@@ -5,6 +5,7 @@
 // import 'dart:html';
 
 import 'dart:ffi';
+
 //import 'dart:indexed_db';
 import 'dart:io';
 
@@ -120,9 +121,14 @@ void main() {
   // print(a1);
 //======================QUESTION#12==================================
   // var arr1 = [1, 2, 5, 6, 78, 88, 56, 48, 7, 12, 96, 12, 36, 58, 45, 100, 99];
-  // for (int i = 1; i <= 100; i++) {
-  //   if (arr1.contains(i)) {
-  //     Set arr1 = null;
+  // int b = 48;
+  // for (int i = 0; i <= arr1.length; i++) {
+  //   if (b != arr1[i]) {
+  //     print("absent");
+  //     continue;
+  //   } else {
+  //     print("present");
+  //     break;
   //   }
   // }
   //=======================QUESTION#13===================
